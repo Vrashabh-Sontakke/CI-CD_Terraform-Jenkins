@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 
-library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
+library identifier: 'CI-CD_Terraform_Jenkins@main', retriever: modernSCM(
     [$class: 'GitSCMSource',
-     remote: 'https://gitlab.com/nanuchi/jenkins-shared-library.git',
-     credentialsId: 'gitlab-credentials'
+     remote: 'https://github.com/Vrashabh-Sontakke/CI-CD_Terraform-Jenkins.git',
+     credentialsId: 'github-credentials'
     ]
 )
 
